@@ -1,0 +1,10 @@
+{
+    "name": "socket-test",
+    "version": "0.0.1",
+    "description": "chat",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^4.0.0",
+        "three": "^0.127.0"
+    }
+}
