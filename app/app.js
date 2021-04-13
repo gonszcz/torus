@@ -15,6 +15,11 @@ app.get('/three.min.js', function(req, res) {
     res.sendFile(__dirname + '/node_modules/three/build/three.min.js');
 })
 
+app.get('/fonts/helvetiker_regular.typeface.json', function(req, res) {
+    res.sendFile(__dirname + '/node_modules/three/examples/fonts/helvetiker_regular.typeface.json');
+})
+
 http.listen(3000, function() {
     console.log("Listening on port 3000");
 });
+
